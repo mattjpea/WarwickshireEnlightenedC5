@@ -1,0 +1,98 @@
+body {
+	color: #fff;
+	background-color: #000;
+	padding-top: 50px;
+	background-image: url(../img/background.png);
+}
+
+body, h1{
+font-family: 'Lato', sans-serif;
+}
+
+.navbar-brand {
+	padding:5px 15px 5px 15px;
+}
+
+.navbar-brand img{
+	padding-right:10px;
+}
+
+.navbar-nav>li>a {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.carousel-inner>.item>img {
+	min-width: 100%;
+}
+
+.navbar-inverse {
+	background-image: none;
+	background-color: #222;
+	border-color: #080808;
+}
+
+.front-page {
+	padding-top: 0px;
+}
+
+.front-page h1 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.front-page p, .front-page a {
+font-weight: 300;
+}
+
+.front-page .btn {
+font-weight: 400;
+}
+
+.front-page .btn {
+	margin-top: 30px;
+}
+
+.shadow {
+	box-shadow: 0 0 30px 5px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 0 0 30px 5px rgba(0, 0, 0, 1);
+	-webkit-box-shadow: 0 0 30px 5px rgba(0, 0, 0, 1);
+}
+footer{
+	height:100px;
+}
+
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #000;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 1);
+	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 1);
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	body .front-page {
+	font-size: 20px;
+}
+.front-page h1 {
+	font-size: 60px;
+}
+.front-page p {
+	font-size: 20px;
+}
+
+.front-page {
+	padding-top: 70px;
+}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+
+}
